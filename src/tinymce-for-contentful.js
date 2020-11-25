@@ -27,6 +27,7 @@ window.contentfulExtension.init(function(api) {
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
+      browser_spellcheck: true,
       init_instance_callback : function(editor) {
         var listening = true;
 
