@@ -29,6 +29,7 @@ window.contentfulExtension.init(function(api) {
       image_caption: true,
       browser_spellcheck: true,
       contextmenu: false,
+      tinydrive_token_provider: 'URL_TO_YOUR_TOKEN_PROVIDER',
       init_instance_callback : function(editor) {
         var listening = true;
 
