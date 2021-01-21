@@ -24,7 +24,7 @@ window.contentfulExtension.init(function(api) {
       menubar: mb,
       min_height: 650,
       max_height: 750,
-      width : 940,
+      width: '100%',
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
