@@ -22,14 +22,13 @@ window.contentfulExtension.init(function(api) {
       plugins: p,
       toolbar: tb,
       menubar: mb,
-      min_height: 600,
-      max_height: 750,
+      min_height: 800,
+      max_height: 950,
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
       browser_spellcheck: true,
       contextmenu: false,
-      tinydrive_token_provider: 'URL_TO_YOUR_TOKEN_PROVIDER',
       init_instance_callback : function(editor) {
         var listening = true;
 
